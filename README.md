@@ -144,7 +144,7 @@ deployment recipe.
    - `git clone https://github.com/YOUR-USERNAME/Viewers.git`
 3. Navigate to the cloned project's directory
 4. Add this repo as a `remote` named `upstream`
-   - `git remote add upstream https://github.com/OHIF/Viewers.git`
+   - `git remote add upstream https://github.com/anastharek/Viewers.git`
 5. `yarn install` to restore dependencies and link projects
 
 #### To Develop

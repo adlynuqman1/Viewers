@@ -18,7 +18,7 @@ _With Git:_
 
 ```bash
 # Clone the remote repository to your local machine
-git clone https://github.com/OHIF/Viewers.git
+git clone https://github.com/anastharek/Viewers.git
 ```
 
 More on: _[`git clone`](https://git-scm.com/docs/git-clone),

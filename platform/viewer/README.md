@@ -72,7 +72,7 @@ _Steps:_
 
 3. Add `OHIF/Viewers` as a `remote` repository (the `upstream`)
 
-- `git remote add upstream git@github.com:OHIF/Viewers.git`
+- `git remote add upstream git@github.com:anastharek/Viewers.git`
 
 ### Developing Locally
 
