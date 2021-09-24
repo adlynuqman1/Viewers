@@ -26,9 +26,9 @@
   "author": "Open Health Imaging Foundation",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OHIF/Viewers/issues"
+    "url": "https://github.com/anastharek/Viewers/issues"
   },
-  "homepage": "https://github.com/OHIF/Viewers#readme",
+  "homepage": "https://github.com/anastharek/Viewers#readme",
   "dependencies": {
     "gitbook-plugin-anchors": "^0.7.1",
     "gitbook-plugin-edit-link": "^2.0.2",

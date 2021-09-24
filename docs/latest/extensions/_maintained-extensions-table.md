@@ -47,7 +47,7 @@
                 <a href="https://www.npmjs.com/package/@ohif/extension-dicom-pdf">DICOM PDF</a>
             </td>
             <td>
-                Renders PDFs for a <a href="https://github.com/OHIF/Viewers/blob/master/extensions/dicom-pdf/src/OHIFDicomPDFSopClassHandler.js#L4-L6">specific SopClassUID</a>.
+                Renders PDFs for a <a href="https://github.com/anastharek/Viewers/blob/master/extensions/dicom-pdf/src/OHIFDicomPDFSopClassHandler.js#L4-L6">specific SopClassUID</a>.
             </td>
             <td>Viewport, SopClassHandler</td>
         </tr>
@@ -57,7 +57,7 @@
                 <a href="https://www.npmjs.com/package/@ohif/extension-dicom-microscopy">DICOM Microscopy</a>
             </td>
             <td>
-                Renders Microscopy images for a <a href="https://github.com/OHIF/Viewers/blob/master/extensions/dicom-microscopy/src/DicomMicroscopySopClassHandler.js#L5-L7">specific SopClassUID</a>.
+                Renders Microscopy images for a <a href="https://github.com/anastharek/Viewers/blob/master/extensions/dicom-microscopy/src/DicomMicroscopySopClassHandler.js#L5-L7">specific SopClassUID</a>.
             </td>
             <td>Viewport, SopClassHandler</td>
         </tr>
@@ -67,7 +67,7 @@
                 <a href="https://www.npmjs.com/package/@ohif/extension-dicom-segmentation">DICOM Segmentation</a>
             </td>
             <td>
-                Renders segmentation images for a <a href="https://github.com/OHIF/Viewers/blob/master/extensions/dicom-segmentation/src/OHIFDicomSegSopClassHandler.js#L5-L7">specific SopClassUID</a>.
+                Renders segmentation images for a <a href="https://github.com/anastharek/Viewers/blob/master/extensions/dicom-segmentation/src/OHIFDicomSegSopClassHandler.js#L5-L7">specific SopClassUID</a>.
             </td>
             <td>Panel, Toolbar</td>
         </tr>

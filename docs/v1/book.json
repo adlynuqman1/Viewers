@@ -13,11 +13,11 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/OHIF/Viewers/edit/master/docs",
+      "base": "https://github.com/anastharek/Viewers/edit/master/docs",
       "label": "Edit This Page"
     },
     "github": {
-      "url": "https://github.com/OHIF/Viewers"
+      "url": "https://github.com/anastharek/Viewers"
     },
     "ga": {
       "token": "UA-110573590-2"
@@ -27,7 +27,7 @@
       "todo": "sitemap plugin removed; causing build errors"
     },
     "versions": {
-      "gitbookConfigURL": "https://raw.githubusercontent.com/OHIF/Viewers/master/docs/book.json",
+      "gitbookConfigURL": "https://raw.githubusercontent.com/anastharek/Viewers/master/docs/book.json",
       "options": [
         {
           "value": "https://docs.ohif.org/history/v1/",

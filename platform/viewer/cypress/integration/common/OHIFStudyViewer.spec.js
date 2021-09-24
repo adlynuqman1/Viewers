@@ -1,4 +1,4 @@
-describe('OHIF Study Viewer Page', function() {
+describe('OHIF Study Viewer Page', function () {
   before(() => {
     cy.checkStudyRouteInViewer(
       '1.2.840.113619.2.5.1762583153.215519.978957063.78'
@@ -6,18 +6,18 @@ describe('OHIF Study Viewer Page', function() {
     cy.expectMinimumThumbnails(3);
   });
 
-  beforeEach(function() {
+  beforeEach(function () {
     cy.initCommonElementsAliases();
     cy.resetViewport().wait(50);
   });
 
-  it('checks if series thumbnails are being displayed', function() {
+  it('checks if series thumbnails are being displayed', function () {
     cy.get('[data-cy="thumbnail-list"]')
       .its('length')
       .should('be.gt', 1);
   });
 
-  it('drags and drop a series thumbnail into viewport', function() {
+  it('drags and drop a series thumbnail into viewport', function () {
     cy.get('[data-cy="thumbnail-list"]:nth-child(2)') //element to be dragged
       .drag('.cornerstone-canvas'); //dropzone element
 
@@ -26,7 +26,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@viewportInfoBottomLeft').should('contain.text', expectedText);
   });
 
-  it('checks if Series left panel can be hidden/displayed', function() {
+  it('checks if Series left panel can be hidden/displayed', function () {
     cy.get('@seriesBtn').click();
     cy.get('@seriesPanel').should('not.be.enabled');
 
@@ -34,7 +34,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@seriesPanel').should('be.visible');
   });
 
-  it('checks if Measurements right panel can be hidden/displayed', function() {
+  it('checks if Measurements right panel can be hidden/displayed', function () {
     cy.get('@measurementsBtn').click();
     cy.get('@measurementsPanel').should('be.visible');
 
@@ -42,7 +42,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@measurementsPanel').should('not.be.enabled');
   });
 
-  it('checks if measurement item can be Relabeled under Measurements panel', function() {
+  it('checks if measurement item can be Relabeled under Measurements panel', function () {
     cy.addLengthMeasurement(); //Adding measurement in the viewport
     cy.get('@measurementsBtn').click();
     cy.get('.measurementItem')
@@ -117,7 +117,7 @@ describe('OHIF Study Viewer Page', function() {
    */
 
 
-  it('checks if measurement item can be deleted through the context menu on the viewport', function() {
+  it('checks if measurement item can be deleted through the context menu on the viewport', function () {
     cy.addLengthMeasurement([100, 100], [200, 100]); //Adding measurement in the viewport
 
     //Right click on measurement annotation
@@ -153,7 +153,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@measurementsPanel').should('not.be.enabled');
   });
 
-  it('adds relabel and description to measurement item through the context menu on the viewport', function() {
+  it('adds relabel and description to measurement item through the context menu on the viewport', function () {
     cy.addLengthMeasurement([100, 100], [200, 100]); //Adding measurement in the viewport
 
     // Relabel
@@ -229,7 +229,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@measurementsPanel').should('not.be.enabled');
   });
 
-  it('scrolls series stack using scrollbar', function() {
+  it('scrolls series stack using scrollbar', function () {
     // Workaround implemented based on Cypress issue:
     // https://github.com/cypress-io/cypress/issues/1570#issuecomment-450966053
     const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
@@ -258,7 +258,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@viewportInfoBottomLeft').should('contains.text', expectedText);
   });
 
-  it('performs right click to zoom', function() {
+  it('performs right click to zoom', function () {
     //Right click on viewport
     cy.get('@viewport')
       .trigger('mousedown', 'top', { which: 3 })
@@ -270,7 +270,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('@viewportInfoBottomRight').should('contains.text', expectedText);
   });
 
-  it('performs middle click to pan', function() {
+  it('performs middle click to pan', function () {
     //Get image position from cornerstone and check if y axis was modified
     let cornerstone;
     let currentPan;
@@ -294,7 +294,7 @@ describe('OHIF Study Viewer Page', function() {
       });
   });
 
-  it('opens About modal and verify the displayed information', function() {
+  it('opens About modal and verify the displayed information', function () {
     cy.get('[data-cy="options-menu"]')
       .first()
       .click();
@@ -309,7 +309,7 @@ describe('OHIF Study Viewer Page', function() {
     cy.get('[data-cy="about-modal"]')
       .should('contains.text', 'Visit the forum')
       .and('contains.text', 'Report an issue')
-      .and('contains.text', 'https://github.com/OHIF/Viewers/');
+      .and('contains.text', 'https://github.com/anastharek/Viewers/');
 
     //check version number
     cy.get('[data-cy="about-modal"]').then($modal => {

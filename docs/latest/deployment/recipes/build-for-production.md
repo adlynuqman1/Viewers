@@ -26,7 +26,7 @@ More on: _[`git clone`](https://git-scm.com/docs/git-clone),
 
 _From .zip:_
 
-[OHIF/Viewers: react.zip](https://github.com/OHIF/Viewers/archive/master.zip)
+[OHIF/Viewers: react.zip](https://github.com/anastharek/Viewers/archive/master.zip)
 
 ### Restore Dependencies & Build
 
@@ -128,8 +128,8 @@ web application. For a starting point, check out this repository's own use of:
 
 <!-- prettier-ignore-start -->
 [circleci]: https://circleci.com/gh/OHIF/Viewers
-[circleci-config]: https://github.com/OHIF/Viewers/blob/master/.circleci/config.yml
+[circleci-config]: https://github.com/anastharek/Viewers/blob/master/.circleci/config.yml
 [netlify]: https://app.netlify.com/sites/ohif/deploys
-[netlify.toml]: https://github.com/OHIF/Viewers/blob/master/netlify.toml
-[build-deploy-preview.sh]: https://github.com/OHIF/Viewers/blob/master/.netlify/build-deploy-preview.sh
+[netlify.toml]: https://github.com/anastharek/Viewers/blob/master/netlify.toml
+[build-deploy-preview.sh]: https://github.com/anastharek/Viewers/blob/master/.netlify/build-deploy-preview.sh
 <!-- prettier-ignore-end -->

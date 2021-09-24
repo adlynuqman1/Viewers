@@ -1,6 +1,6 @@
 # Add a Logo to the Viewer
 
-The OHIF Framework provides [**ohif-header**](https://github.com/OHIF/Viewers/tree/master/Packages/ohif-header) package to add a header into application layout. **ohif-header** package is designed as a [custom block helper](http://blazejs.org/api/spacebars.html#Custom-Block-Helpers) named **header** to define your own header context.
+The OHIF Framework provides [**ohif-header**](https://github.com/anastharek/Viewers/tree/master/Packages/ohif-header) package to add a header into application layout. **ohif-header** package is designed as a [custom block helper](http://blazejs.org/api/spacebars.html#Custom-Block-Helpers) named **header** to define your own header context.
 
 If you would like to add SVG logo to header please follow these steps.
 

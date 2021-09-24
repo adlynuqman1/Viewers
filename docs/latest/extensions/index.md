@@ -233,7 +233,7 @@ the top level [`extensions/`][ext-source] directory.
 -->
 
 <!-- prettier-ignore-start -->
-[viewers-repo]: https://github.com/OHIF/Viewers
-[ext-source]: https://github.com/OHIF/Viewers/tree/master/extensions
-[module-types]: https://github.com/OHIF/Viewers/blob/master/platform/core/src/extensions/MODULE_TYPES.js
+[viewers-repo]: https://github.com/anastharek/Viewers
+[ext-source]: https://github.com/anastharek/Viewers/tree/master/extensions
+[module-types]: https://github.com/anastharek/Viewers/blob/master/platform/core/src/extensions/MODULE_TYPES.js
 <!-- prettier-ignore-end -->

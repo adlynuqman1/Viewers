@@ -12,7 +12,7 @@ we make to the OHIF Viewer, then follow these steps:
   - `git clone https://github.com/YOUR-USERNAME/Viewers`
 - Add OHIF/Viewers as a [remote repository][add-remote-repo] labled `upstream`
   - Navigate to the cloned project's directory
-  - `git remote add upstream https://github.com/OHIF/Viewers.git`
+  - `git remote add upstream https://github.com/anastharek/Viewers.git`
 
 With this setup, you can now [sync your fork][sync-changes] to keep it
 up-to-date with the upstream (original) repository. This is called a "Triangular
@@ -102,6 +102,6 @@ yarn run build:package
 [add-remote-repo]: https://help.github.com/en/articles/fork-a-repo#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository
 [sync-changes]: https://help.github.com/en/articles/syncing-a-fork
 [triangular-workflow]: https://github.blog/2015-07-29-git-2-5-including-multiple-worktrees-and-triangular-workflows/#improved-support-for-triangular-workflows
-[ohif-viewers-repo]: https://github.com/OHIF/Viewers
-[ohif-viewers]: https://github.com/OHIF/Viewers
+[ohif-viewers-repo]: https://github.com/anastharek/Viewers
+[ohif-viewers]: https://github.com/anastharek/Viewers
 <!-- prettier-ignore-end -->
