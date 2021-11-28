@@ -279,7 +279,12 @@ class Viewer extends Component {
                 <AppContext.Consumer>
                   {appContext => (
                     <ConnectedHeader
-                     
+                    linkText={
+                    
+                    }
+                    linkPath={
+                      appContext.appConfig.showStudyList ? '/' : undefined
+                    }
                       userManager={userManager}
                     >
                       {whiteLabeling &&
